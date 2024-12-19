@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "moduleResolution": "NodeNext",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "outDir": "out"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

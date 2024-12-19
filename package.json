@@ -1,0 +1,17 @@
+{
+  "name": "karnameh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node out/generate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer-core": "^23.7.1",
+    "typescript": "^5.6.3"
+  }
+}
